@@ -1,7 +1,14 @@
-baseURL = 'joys-corner.com'
+baseURL = 'https://www.joys-corner.com/'
 languageCode = 'en-us'
-title = 'Joys first hugo Site'
+title = "Joy's Corner"
 theme = 'nostyleplease'
+
+[params]
+    author = "Joy"
+    description = "A minimalist space for my thoughts."
+    # Most themes use 'accent' - let's try both to be safe
+    accent = "#ff5e62"
+    themeColor = "#ff5e62"
 
 [[menu.main]]
     name = "About"
@@ -12,9 +19,3 @@ theme = 'nostyleplease'
     name = "Posts"
     url = "/posts/"
     weight = 2
-
-[params]
-    title = "Joy's Corner"
-    description = "A minimalist space for my thoughts."
-    accentColor = "#ff5e62"  # This is a soft coral/pink color
-    showDarkThemeConfig = true
