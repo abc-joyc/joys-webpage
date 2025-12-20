@@ -3,8 +3,18 @@ languageCode = 'en-us'
 title = 'Joys first hugo Site'
 theme = 'nostyleplease'
 
-
 [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 1
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+[params]
+    title = "Joy's Corner"
+    description = "A minimalist space for my thoughts."
+    accentColor = "#ff5e62"  # This is a soft coral/pink color
+    showDarkThemeConfig = true

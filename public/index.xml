@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joys first hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Joys first hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Dec 2025 20:27:06 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Fri, 19 Dec 2025 20:27:06 -0700</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;draft-false&#34;&gt;title: &amp;ldquo;About Me&amp;rdquo;&#xA;date: 2025-12-19&#xA;draft: false&lt;/h2&gt;&#xA;&lt;p&gt;Hi! I&amp;rsquo;m Joy. Welcome to my corner of the internet.&#xA;I built this site using Hugo and the &lt;code&gt;nostyleplease&lt;/code&gt; theme!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
