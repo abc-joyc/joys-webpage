@@ -2,3 +2,9 @@ baseURL = 'joys-corner.com'
 languageCode = 'en-us'
 title = 'Joys first hugo Site'
 theme = 'nostyleplease'
+
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
