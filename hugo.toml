@@ -1,14 +1,16 @@
 baseURL = 'https://www.joys-corner.com/'
 languageCode = 'en-us'
 title = "Joy's Corner"
-theme = 'nostyleplease'
+#theme = 'nostyleplease'
 
 [params]
     author = "Joy"
     description = "A minimalist space for my thoughts."
-    # Most themes use 'accent' - let's try both to be safe
-    accent = "#ff5e62"
     themeColor = "#ff5e62"
+    # ADD THIS LINE BELOW:
+    customCSS = ["css/custom.css"]
+
+    
 
 [[menu.main]]
     name = "About"
@@ -19,3 +21,7 @@ theme = 'nostyleplease'
     name = "Posts"
     url = "/posts/"
     weight = 2
+
+
+
+    
