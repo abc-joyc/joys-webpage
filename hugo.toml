@@ -1,14 +1,7 @@
 baseURL = 'https://www.joys-corner.com/'
 languageCode = 'en-us'
 title = "Joy's Corner"
-#theme = 'nostyleplease'
-
-[params]
-    author = "Joy"
-    description = "A minimalist space for my thoughts."
-    themeColor = "#ff5e62"
-    # ADD THIS LINE BELOW:
-    customCSS = ["css/custom.css"]
+theme = 'nostyleplease'
 
     
 
